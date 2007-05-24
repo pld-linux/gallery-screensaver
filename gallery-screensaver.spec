@@ -2,6 +2,7 @@
 # - saverbeans-api.jar should be external
 # - need .o files from xscreensaver-4.24 to build
 Summary:	Gallery Remote - Screensaver
+Summary(pl.UTF-8):	Gallery Remote - wygaszacz ekranu
 Name:		gallery-screensaver
 Version:	1.5.1
 Release:	0.1
@@ -16,7 +17,10 @@ BuildRequires:	rpmbuild(macros) >= 1.300
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Gallery Remote Screensaver
+Gallery Remote Screensaver.
+
+%description -l pl.UTF-8
+Wygaszacz ekranu Gallery Remote.
 
 %prep
 %setup -q -n gallery-unix
