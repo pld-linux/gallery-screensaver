@@ -14,6 +14,7 @@ URL:		http://codex.gallery2.org/Gallery_Remote:Screensaver
 BuildRequires:	jdk
 BuildRequires:	jpackage-utils
 BuildRequires:	rpmbuild(macros) >= 1.300
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
